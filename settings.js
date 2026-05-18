@@ -10,7 +10,7 @@ module.exports = {
   botImage:   './media/bot-image.png',
 
   // ─── Owner Config ────────────────────────────
-  ownerNumber: (process.env.OWNER_NUMBER || '254712345678').replace(/[^0-9]/g, '') + '@s.whatsapp.net',
+  ownerNumber: (process.env.OWNER_NUMBER || '254793753327').replace(/[^0-9]/g, '') + '@s.whatsapp.net',
   ownerName:   process.env.OWNER_NAME   || 'MEGAMIND Owner',
 
   // ─── Prefix ──────────────────────────────────
@@ -22,8 +22,8 @@ module.exports = {
   mode: process.env.BOT_MODE || 'public',
 
   // ─── Auto Features ───────────────────────────
-  autoRead:       process.env.AUTO_READ      === 'true',
-  autoTyping:     process.env.AUTO_TYPING    !== 'false',
+  autoRead:       process.env.AUTO_READ      === 'false',
+  autoTyping:     process.env.AUTO_TYPING    !== 'true',
   autoRecording:  false,
   autoViewStatus: false,
 
@@ -78,5 +78,5 @@ module.exports = {
 
   // ─── Branding ────────────────────────────────
   footer: '🧠 MEGAMIND-MD | The Most Powerful WhatsApp Bot',
-  pairSiteUrl: process.env.PAIR_SITE_URL || '',
+  pairSiteUrl: process.env.PAIR_SITE_URL || 'https://megamind-md.onrender.com/',
 };
